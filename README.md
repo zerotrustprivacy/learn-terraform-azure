@@ -17,3 +17,9 @@ Building infrastructure in Azure
   <br><b>New-Item -Path "c:\" -Name "terraform-azure" -ItemType "directory"</b></br></li>
   <li>Create a new file in VS code called <b>"main.tf"</b> An example is listed in this repository.
 <br>Make sure to update the region to the one that you are using in Azure</br></li>
+<li>Use <b>terraform init</b> to initialize</li>
+<li><b>terraform validate</b> to ensure that the configuration is valid</li>
+<li><b>terraform apply</b> will apply the configuration. Select <b>YES</b> when asked to perform the actions</li>
+<li><b>terraform show</b> gives you the ability to view the state of your project</li>
+<li>When you are ready to delete the infrastucture just enter <B>terraform destroy</B> and Select <b>YES</b></li>
+
